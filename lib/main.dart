@@ -38,7 +38,7 @@ class _WebViewState extends State<MyApp> {
               children: [
                 InAppWebView(
                   initialUrlRequest: URLRequest(
-                      url: Uri.parse("https://barikoi.com/")
+                      url: Uri.parse("http://20.193.148.168:3090/")
                   ),
                   onWebViewCreated: (InAppWebViewController controller) {
                     inAppWebViewController = controller;
